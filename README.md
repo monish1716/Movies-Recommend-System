@@ -16,7 +16,7 @@ Dataset: [TMDb / Kaggle Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb
 ---
 
 ## 📂 Project Files
-- `movie_recommender.ipynb` → Jupyter Notebook with full implementation  
+- `Movies_recommender_system.ipynb` → Jupyter Notebook with full implementation  
 - `movies.csv` → Dataset used (or link if too large)  
 - `requirements.txt` → Python dependencies  
 - `images/demo.png` → Example recommendation output  
