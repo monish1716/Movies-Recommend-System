@@ -85,13 +85,8 @@ Get top 5 recommended movies with posters.
 
 📌 Example
 
-Input: Inception
-Output:
-Interstellar
-The Dark Knight
-The Prestige
-Shutter Island
-Memento
+![Alt Text](images/mrs.png)
+
 
 🔮 Future Improvements
 Add hybrid recommendation system (content + collaborative).
