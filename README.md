@@ -18,25 +18,26 @@ It suggests movies to users based on similarity scores calculated from movie fea
 
 ## 📂 Project Structure
 
+## 📂 Project Structure
+
 Movies-Recommend-System/
 │
-├── app.py                     # Streamlit app for interactive recommendations
-├── setup.sh                   # Quick setup & deployment script
-├── requirements.txt           # Dependencies file
+├── app.py # Streamlit app for interactive recommendations
+├── setup.sh # Quick setup & deployment script
+├── requirements.txt # Dependencies file
 │
-├── images/                    # Screenshots or demo visuals
+├── images/ # Screenshots or demo visuals
 │
-├── notebooks/                 # Jupyter notebooks for development and demos
-│   └── Movies_recommender_system.ipynb
+├── notebooks/ # Jupyter notebooks for development and demos
+│ └── Movies_recommender_system.ipynb
 │
-├── artifacts/                 # Precomputed data for more efficient app launching
-│   ├── movie_dict.pkl
-│   └── similarity.pkl
+├── artifacts/ # Precomputed data for efficient app launching
+│ ├── movie_dict.pkl
+│ └── similarity.pkl
 │
-├── README.md                  # This documentation
+├── data/ # Store raw datasets (e.g., CSVs)
 │
-└── data/                      # Store raw raw datasets (e.g., CSVs) here
-
+└── README.md # Project documentation
 
 ---
 
