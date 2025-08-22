@@ -9,11 +9,6 @@ output = "similarity.pkl"
 gdown.download(url, output, quiet=False)
 
 
-# then load it
-# with open("similarity.pkl", "rb") as f:
-#     similarity = pickle.load(f)
-
-
 def fetch_poster(movie_id):
     response = requests.get(f'https://api.themoviedb.org/3/movie/{movie_id}?api_key=66c88d76402503111a0e56fb92459432&language=en-US')
     data = response.json() 
@@ -36,9 +31,9 @@ def recommend(movie):
 
 movie_dict = pickle.load(open('movie_dict.pkl', 'rb'))
 movies = pd.DataFrame(movie_dict)
-with open("similarity.pkl", "rb") as f:
-    similarity = pickle.load(f)
-# similarity = pickle.load(open('similarity.pkl', 'rb'))
+# with open("similarity.pkl", "rb") as f:
+#     similarity = pickle.load(f)
+similarity = pickle.load(open('similarity.pkl', 'rb'))
 
 
 st.title("Movie Recommendation System")
@@ -72,6 +67,7 @@ if st.button("Recommend"):
     with col5:
         st.text(names[4])
         st.image(posters[4])
+
 
 
 
