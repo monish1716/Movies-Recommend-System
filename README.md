@@ -87,8 +87,8 @@ Get top 5 recommended movies with posters.
 
 ## 🔮 Future Improvements
 Add hybrid recommendation system (content + collaborative).
-Deploy on HuggingFace Spaces / Render
-Integrate with real-time movie APIs
+Deploy on HuggingFace Spaces / Render.
+Integrate with real-time movie APIs.
 
 ---
 
