@@ -50,12 +50,12 @@ streamlit run app.py
 
 ---
 
-## 📊 Dataset  
-The project uses the [TMDB 5000 Movies Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata), which contains:  
-- 🎬 Movie titles  
-- 🎭 Cast & crew details  
-- 🏷️ Genres  
-- 🔑 Keywords  
+## Dataset
+This project uses the TMDB 5000 Movies Dataset from Kaggle, which contains two files:
+1. `movies.csv` – movie details (title, genres, keywords, etc.)
+2. `credits.csv` – cast and crew information  
+
+Download them from [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) and place them in the `data/` folder.
 
 ---
 
