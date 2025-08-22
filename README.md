@@ -47,6 +47,8 @@ pip install -r requirements.txt
 
 streamlit run app.py
 
+---
+
 📊 Dataset
 
 The project uses the TMDB 5000 Movies Dataset, which contains:
@@ -57,6 +59,8 @@ Keywords
 [TMDB Movies Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata).
 .
 
+---
+
 🎯 How It Works
 
 Extract important features from the dataset (genres, cast, crew, keywords).
@@ -65,26 +69,35 @@ Convert text data into vectors using CountVectorizer.
 Compute cosine similarity between movies.
 Recommend top 5 similar movies for any input.
 
+---
+
 🌐 Demo
 
 After running the Streamlit app:
 Enter a movie title in the input box.
 Get top 5 recommended movies with posters.
 
+---
+
 📌 Example
 
 ![Alt Text](images/mrs.png)
 
+---
 
 🔮 Future Improvements
 Add hybrid recommendation system (content + collaborative).
 Deploy on HuggingFace Spaces / Render
 Integrate with real-time movie APIs
 
+---
+
 🤝 Contributing
 
 Pull requests are welcome.
 For major changes, please open an issue first to discuss what you’d like to change.
+
+---
 
 📜 License
 
