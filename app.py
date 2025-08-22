@@ -3,10 +3,13 @@ import pandas as pd
 import pickle 
 import requests
 import gdown
+import os
 
-url = "https://drive.google.com/uc?id=19jZMuhfHwXZrDr1XHH-2h0bKPXTkwoU_"
-output = "similarity.pkl"
-gdown.download(url, output, quiet=False)
+similarity_file = "similarity.pkl"
+
+if not os.path.exists(similarity_file):
+    url = "https://drive.google.com/uc?id=19jZMuhfHwXZrDr1XHH-2h0bKPXTkwoU_"
+    gdown.download(url, output, quiet=False)
 
 
 def fetch_poster(movie_id):
@@ -65,6 +68,7 @@ if st.button("Recommend"):
     with col5:
         st.text(names[4])
         st.image(posters[4])
+
 
 
 
