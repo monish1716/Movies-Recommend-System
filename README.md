@@ -32,7 +32,9 @@ It suggests movies to users based on similarity scores calculated from movie fea
    cd Movies-Recommend-System
 
 2. Download similarity.pkl:
-   Download the similarity.pkl file from google drive and add it to the project folder
+   ```bash
+   pip install gdown
+   python download_similarity.py
    
 4. Install dependencies:
 
