@@ -49,7 +49,7 @@ streamlit run app.py
 
 ---
 
-📊 Dataset
+##📊 Dataset
 
 The project uses the TMDB 5000 Movies Dataset, which contains:
 Movie titles
@@ -61,7 +61,7 @@ Keywords
 
 ---
 
-🎯 How It Works
+##🎯 How It Works
 
 Extract important features from the dataset (genres, cast, crew, keywords).
 Apply preprocessing (remove duplicates, handle nulls, clean text).
@@ -71,7 +71,7 @@ Recommend top 5 similar movies for any input.
 
 ---
 
-🌐 Demo
+##🌐 Demo
 
 After running the Streamlit app:
 Enter a movie title in the input box.
@@ -79,26 +79,26 @@ Get top 5 recommended movies with posters.
 
 ---
 
-📌 Example
+##📌 Example
 
 ![Alt Text](images/mrs.png)
 
 ---
 
-🔮 Future Improvements
+##🔮 Future Improvements
 Add hybrid recommendation system (content + collaborative).
 Deploy on HuggingFace Spaces / Render
 Integrate with real-time movie APIs
 
 ---
 
-🤝 Contributing
+##🤝 Contributing
 
 Pull requests are welcome.
 For major changes, please open an issue first to discuss what you’d like to change.
 
 ---
 
-📜 License
+##📜 License
 
 This project is licensed under the MIT License.
