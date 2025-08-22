@@ -1,5 +1,5 @@
 # 🎬 Movie Recommendation System (Python + ML)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://movies-recommend-system-monish.streamlit.app)
+🚀 **Try the live app here:** [Movies Recommend App](https://movies-recommend-system-monish.streamlit.app)
 
 
 
