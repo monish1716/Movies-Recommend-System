@@ -2,6 +2,16 @@ import streamlit as st
 import pandas as pd
 import pickle 
 import requests
+import gdown
+
+url = "https://drive.google.com/file/d/19jZMuhfHwXZrDr1XHH-2h0bKPXTkwoU_/view?usp=drive_link"
+output = "similarity.pkl"
+gdown.download(url, output, quiet=False)
+
+# then load it
+# with open("similarity.pkl", "rb") as f:
+#     similarity = pickle.load(f)
+
 
 def fetch_poster(movie_id):
     response = requests.get(f'https://api.themoviedb.org/3/movie/{movie_id}?api_key=66c88d76402503111a0e56fb92459432&language=en-US')
@@ -59,4 +69,5 @@ if st.button("Recommend"):
     with col5:
         st.text(names[4])
         st.image(posters[4])
+
 
