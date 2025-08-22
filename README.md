@@ -1,4 +1,6 @@
 # 🎬 Movie Recommendation System (Python + ML)
+[👉 Live Demo on Streamlit](https://movies-recommend-system-monish.streamlit.app)
+
 
 ![Python](https://img.shields.io/badge/Language-Python-blue)
 ![ML](https://img.shields.io/badge/Domain-Machine_Learning-green)
