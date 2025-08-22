@@ -4,9 +4,9 @@ import pickle
 import requests
 import gdown
 
-url = "https://drive.google.com/file/d/19jZMuhfHwXZrDr1XHH-2h0bKPXTkwoU_/view?usp=drive_link"
-output = "similarity.pkl"
-gdown.download(url, output, quiet=False)
+# url = "https://drive.google.com/file/d/19jZMuhfHwXZrDr1XHH-2h0bKPXTkwoU_/view?usp=drive_link"
+# output = "similarity.pkl"
+# gdown.download(url, output, quiet=False)
 
 # then load it
 # with open("similarity.pkl", "rb") as f:
@@ -37,7 +37,7 @@ movie_dict = pickle.load(open('movie_dict.pkl', 'rb'))
 movies = pd.DataFrame(movie_dict)
 with open("similarity.pkl", "rb") as f:
     similarity = pickle.load(f)
-# similarity = pickle.load(open('similarity.pkl', 'rb'))
+similarity = pickle.load(open('similarity.pkl', 'rb'))
 
 
 st.title("Movie Recommendation System")
@@ -71,6 +71,7 @@ if st.button("Recommend"):
     with col5:
         st.text(names[4])
         st.image(posters[4])
+
 
 
 
