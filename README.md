@@ -99,6 +99,3 @@ For major changes, please open an issue first to discuss what you’d like to ch
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License.
